@@ -1,40 +1,51 @@
-# Employment Data Analysis Project
+# US Employment Data Analysis
 
-## Introduction
+Welcome to the US Employment Data Analysis project! This project delves into the realm of employment data using the [Employment in the U.S.](https://datahub.io/core/employment-us) dataset. Our goal is to explore historical employment trends, create predictive models, craft compelling visualizations, and offer insights into the world of employment statistics.
 
-Welcome to the Employment Data Analysis Project! In this project, my partner and I dive into the world of employment data using the [Employment in the U.S.](https://datahub.io/core/employment-us) dataset. This dataset provides valuable information on employment, unemployment, and related statistics in the United States.
-
-Our main objectives in this project are to:
-
-- Explore historical employment data trends.
-- Develop predictive models to forecast future employment figures.
-- Create engaging visualizations to help understand the data better.
-- Provide insights and potential use cases for employment data analysis.
+**Note:** This project has been created for the [Youth Data Hackathon on DevPost](https://youth-data-hack.devpost.com/), a platform for innovative data solutions.
 
 ## Data Source
 
-We've sourced our data from [datahub.io](https://datahub.io/core/employment-us). This dataset is a treasure trove of information related to employment, unemployment, population, labor force, and more.
+Our dataset originates from [datahub.io](https://datahub.io/core/employment-us), serving as a valuable source of information on employment, unemployment, population, labor force, and more.
 
 ## Data Description
 
-The dataset includes the following columns:
+The dataset contains several columns, each providing essential employment-related information:
 
-1. `year`: The year for which the data is recorded.
-2. `population`: The total population.
-3. `labor_force`: The number of people in the labor force.
-4. `population_percent`: The percentage of the population.
-5. `employed_total`: The total number of employed individuals.
-6. `employed_percent`: The percentage of employed individuals.
-7. `agriculture_ratio`: The ratio of individuals employed in agriculture.
-8. `nonagriculture_ratio`: The ratio of individuals employed in non-agriculture.
-9. `unemployed`: The number of unemployed individuals.
-10. `unemployed_percent`: The percentage of unemployed individuals.
-11. `not_in_labor`: The number of individuals not in the labor force.
-12. `footnotes`: Additional footnotes.
+- `year`: The recorded year.
+- `population`: The total population.
+- `labor_force`: The labor force size.
+- `population_percent`: The percentage of the population.
+- `employed_total`: The count of employed individuals.
+- `employed_percent`: The percentage of the employed population.
+- `agriculture_ratio`: The ratio of individuals employed in agriculture.
+- `nonagriculture_ratio`: The ratio of individuals employed in non-agriculture sectors.
+- `unemployed`: The number of unemployed individuals.
+- `unemployed_percent`: The percentage of the unemployed population.
+- `not_in_labor`: The count of individuals not in the labor force.
+- `footnotes`: Additional explanatory notes.
+
+## Highlights of Our Analysis
+
+### Employment Trends
+- Examining historical employment trends reveals a steady increase in total employment in the US, closely aligned with population growth.
+- Despite this general trend, we observed instances where the growth in employment did not match the population increase, with noticeable declines in employment around the year 2010.
+
+### Force Labor Composition
+- Our analysis highlights the shift in labor force composition over time. The percentage of individuals employed in agriculture has significantly decreased, while non-agricultural employment has risen.
+
+### Predictive Models
+- We developed predictive models for employed and unemployed populations. Our models offer forecasts and confidence intervals, allowing us to identify periods beyond these bounds, which indicate recession periods.
+
+### Pre and Post-Recession Analysis
+- We analyzed employment and unemployment patterns during recession periods in the US, focusing on the 1981-1982 and 2008-2009 economic downturns. We observed significant changes in these periods, emphasizing the importance of understanding economic cycles.
+
+### Power BI Visualization
+- We will be using Power BI to create interactive and insightful visualizations to enhance our understanding of the employment data.
 
 ## System Requirements
 
-To make the project run smoothly, make sure you have the following installed on your system:
+To ensure a smooth project experience, please ensure the following software packages are installed on your system:
 
 - Python (Python 3.x recommended)
 - NumPy
@@ -42,24 +53,23 @@ To make the project run smoothly, make sure you have the following installed on 
 - scikit-learn
 - matplotlib
 
-
 ## Contribute
 
-Contributions to this project are limited to the project creators, [JinnOppa](https://github.com/JinnOppa) and [kecebongalau](https://github.com/kecebongalau). If you have ideas for improvements, additional analyses, or any other enhancements, please reach out to:
+While this project is primarily the creation of [JinnOppa](https://github.com/JinnOppa) and [kecebongalau](https://github.com/kecebongalau), we welcome ideas for enhancements, additional analyses, and other improvements. If you have any suggestions, please reach out to:
 
 - Eugene Winata at [eugene.winata@gmail.com]
 - Emilio Garvin at [emiliogarvin@gmail.com]
 
-We look forward to collaborating with you!
+We're eager to collaborate with you!
 
 ## License
 
-This project is open-source and operates under the [MIT License](LICENSE).
+This project operates under the [MIT License](LICENSE) and is open-source.
 
 ## Get in Touch
 
-For questions or inquiries, don't hesitate to reach out to me, [JinnOppa](https://github.com/JinnOppa) or my partner [kecebongalau](https://github.com/kecebongalau). We're always here to help.
+For questions, inquiries, or assistance, don't hesitate to contact either [JinnOppa](https://github.com/JinnOppa) or our partner [kecebongalau](https://github.com/kecebongalau). We're here to assist you.
 
 ---
 
-Let's embark on this journey of exploring employment data and gaining valuable insights! Enjoy the project!
+Join us on this journey of exploring US employment data and uncovering valuable insights. We hope you enjoy this project!
