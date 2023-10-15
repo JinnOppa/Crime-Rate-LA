@@ -1,7 +1,3 @@
-# US Employment
-
-https://datahub.io/core/employment-us
-
 # Employment Data Analysis Project
 
 ## Introduction
